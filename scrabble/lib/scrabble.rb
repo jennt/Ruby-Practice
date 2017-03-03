@@ -6,6 +6,9 @@ class Scrabble
       index = rack.index(letter)
       if index
         rack[index] = ""
+      elsif rack.include?('?')
+        index = rack.index('?')
+        rack[index] = ""
       else
         return false
       end
