@@ -1,7 +1,6 @@
 require 'pry'
-class Scrabble
 
-  def self.scrabble(rack, word)
+  def scrabble(rack, word)
     word.split('').each do |letter|
       index = rack.index(letter)
       if index
@@ -15,5 +14,3 @@ class Scrabble
     end
     return true
   end
-
-end
