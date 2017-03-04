@@ -32,15 +32,15 @@ require 'scrabble'
     end
   end
 
-  # describe ('#longest') do
-  #   context 'given up to 20 tiles in a rack' do
-  #     it 'returns the longest possible word' do
-  #       expect(longest('dcthoyueorza')). to eq 'coauthored'
-  #       expect(longest('uruqrnytrois')). to eq 'turquois'
-  #       expect(longest('rryqeiaegicgeo??')). to eq 'greengrocery'
-  #       expect(longest('udosjanyuiuebr??')). to eq 'subordinately'
-  #       expect(longest('vaakojeaietg????????')). to eq 'ovolactovegetarian'
-  #
-  #     end
-  #   end
-  # end
+  describe ('#longest') do
+    context 'given up to 20 tiles in a rack' do
+      it 'returns the longest possible word' do
+        expect(longest('dcthoyueorza')). to eq 'coauthored'
+        # expect(longest('uruqrnytrois')). to eq 'turquois'
+        # expect(longest('rryqeiaegicgeo??')). to eq 'greengrocery'
+        # expect(longest('udosjanyuiuebr??')). to eq 'subordinately'
+        # expect(longest('vaakojeaietg????????')). to eq 'ovolactovegetarian'
+
+      end
+    end
+  end

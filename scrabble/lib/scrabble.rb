@@ -14,3 +14,6 @@ require 'pry'
     end
     return true
   end
+
+  def longest(rack, words)
+  end
